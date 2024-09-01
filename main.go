@@ -10,7 +10,7 @@ func hello(args []string) (string, error) {
 
 func main() {
     plugin.Main(func(p *plugin.Plugin) error {
-        p.HandleFunction(&plugin.FunctionOptions{Name: "Hello"}, hello)
+        p.HandleFunction(&plugin.FunctionOptions{Name: "TsTryCatchTransferHello"}, hello)
         return nil
     })
 }
